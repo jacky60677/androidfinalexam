@@ -99,7 +99,6 @@ fun Box2(){
                 X.value = event.getX(0)
                 Y.value = event.getY(0)
                 true
-
             }
     )
 
@@ -114,8 +113,10 @@ fun Box2(){
 
         )
 
+        if (true){
+            Toast.makeText(context, "清水南社社區", Toast.LENGTH_SHORT).show()
+        }
 
-        Toast.makeText(context, "清水南社社區", Toast.LENGTH_SHORT).show()
     }
 
 }
